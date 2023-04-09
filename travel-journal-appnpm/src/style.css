@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    color:white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -11,10 +11,72 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
+    color:white;
 }
 
 .logo{
     width:auto;
     height:30px;
     padding-right:4px;
+}
+
+.card-section{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image-column{
+    display:flex;
+    margin-left: 30%;
+    /* background-color: aqua; */
+}
+
+.image-column img{
+    width:100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-column{
+    display:flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* background-color: rebeccapurple; */
+}
+
+.line-one{
+    display:flex;
+}
+
+.line-one img{
+    height:13px;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+.country{
+    padding-right:20px;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 24px;
+}
+.line-three{
+    display:flex;
+    margin-top:10px;
+}
+
+.line-four{
+    margin-top:5px;
+    color:rgb(106, 106, 106);
+    font-weight: bold;
+    width:60%;
+}
+
+.location a{
+    color: rgb(155, 155, 155);
 }
